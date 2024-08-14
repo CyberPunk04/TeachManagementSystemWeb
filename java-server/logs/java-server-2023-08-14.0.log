@@ -1,0 +1,86 @@
+2023-08-14 08:31:28,307 [background-preinit] INFO  o.h.validator.internal.util.Version                - HV000001: Hibernate Validator 6.2.0.Final
+2023-08-14 08:31:28,315 [main] INFO  o.f.t.SpringBootSecurityJwtApplication             - Starting SpringBootSecurityJwtApplication using Java 17.0.1 on lxq with PID 1256 (D:\teach\java2\java-server\target\classes started by 14983 in D:\teach\java2\java-server)
+2023-08-14 08:31:28,315 [main] INFO  o.f.t.SpringBootSecurityJwtApplication             - No active profile set, falling back to default profiles: default
+2023-08-14 08:31:28,862 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Multiple Spring Data modules found, entering strict repository configuration mode!
+2023-08-14 08:31:28,863 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-08-14 08:31:28,943 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Finished Spring Data repository scanning in 76 ms. Found 20 JPA repository interfaces.
+2023-08-14 08:31:29,356 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@3f1a4795' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-08-14 08:31:29,362 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-08-14 08:31:29,875 [main] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            - Tomcat initialized with port(s): 9090 (http)
+2023-08-14 08:31:29,884 [main] INFO  o.apache.coyote.http11.Http11NioProtocol           - Initializing ProtocolHandler ["http-nio-9090"]
+2023-08-14 08:31:29,884 [main] INFO  org.apache.catalina.core.StandardService           - Starting service [Tomcat]
+2023-08-14 08:31:29,884 [main] INFO  org.apache.catalina.core.StandardEngine            - Starting Servlet engine: [Apache Tomcat/9.0.46]
+2023-08-14 08:31:30,004 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]                 - Initializing Spring embedded WebApplicationContext
+2023-08-14 08:31:30,005 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext     - Root WebApplicationContext: initialization completed in 1659 ms
+2023-08-14 08:31:30,143 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-08-14 08:31:30,201 [main] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Starting...
+2023-08-14 08:31:30,535 [main] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Start completed.
+2023-08-14 08:31:30,608 [main] INFO  o.hibernate.jpa.internal.util.LogHelper            - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-08-14 08:31:30,638 [main] INFO  org.hibernate.Version                              - HHH000412: Hibernate ORM core version 5.6.15.Final
+2023-08-14 08:31:30,724 [main] INFO  org.hibernate.annotations.common.Version           - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-08-14 08:31:30,840 [main] INFO  org.hibernate.dialect.Dialect                      - HHH000400: Using dialect: org.fatmansoft.teach.sqlite.SQLDialect
+2023-08-14 08:31:31,344 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator                 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-08-14 08:31:31,348 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-08-14 08:31:32,522 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping              - Adding welcome page: class path resource [public/index.html]
+2023-08-14 08:31:32,633 [main] INFO  o.s.s.web.DefaultSecurityFilterChain               - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@276eafad, org.springframework.security.web.context.SecurityContextPersistenceFilter@23b3afb4, org.springframework.security.web.header.HeaderWriterFilter@7212b28e, org.springframework.web.filter.CorsFilter@29dcad7e, org.springframework.security.web.authentication.logout.LogoutFilter@261b27db, org.fatmansoft.teach.security.jwt.AuthTokenFilter@f245168, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3cf1b5fb, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@78a7fccd, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5ce1ec7, org.springframework.security.web.session.SessionManagementFilter@a1689e8, org.springframework.security.web.access.ExceptionTranslationFilter@6e7d9d0, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@20a7ce0]
+2023-08-14 08:31:32,860 [main] INFO  o.apache.coyote.http11.Http11NioProtocol           - Starting ProtocolHandler ["http-nio-9090"]
+2023-08-14 08:31:32,889 [main] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            - Tomcat started on port(s): 9090 (http) with context path ''
+2023-08-14 08:31:32,895 [main] INFO  o.f.t.SpringBootSecurityJwtApplication             - Started SpringBootSecurityJwtApplication in 4.887 seconds (JVM running for 5.467)
+2023-08-14 08:31:32,898 [main] INFO  o.f.teach.SystemApplicationListener                - SystemInitStart
+2023-08-14 08:31:32,974 [main] INFO  o.f.teach.SystemApplicationListener                - systemInitEnd
+2023-08-14 08:31:44,022 [http-nio-9090-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]                 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-08-14 08:31:44,022 [http-nio-9090-exec-2] INFO  o.s.web.servlet.DispatcherServlet                  - Initializing Servlet 'dispatcherServlet'
+2023-08-14 08:31:44,023 [http-nio-9090-exec-2] INFO  o.s.web.servlet.DispatcherServlet                  - Completed initialization in 1 ms
+2023-08-14 08:32:17,731 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool                  - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=47s92ms310µs600ns).
+2023-08-14 08:32:17,891 [http-nio-9090-exec-2] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/login,,2023-08-14 08:31:44,33.86
+2023-08-14 08:45:01,972 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-08-14 08:45:01,972 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Shutdown initiated...
+2023-08-14 08:45:01,974 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Shutdown completed.
+2023-08-14 08:58:45,608 [background-preinit] INFO  o.h.validator.internal.util.Version                - HV000001: Hibernate Validator 6.2.0.Final
+2023-08-14 08:58:45,613 [main] INFO  o.f.t.SpringBootSecurityJwtApplication             - Starting SpringBootSecurityJwtApplication using Java 17.0.1 on lxq with PID 7484 (D:\teach\java2\java-server\target\classes started by 14983 in D:\teach\java2\java-server)
+2023-08-14 08:58:45,614 [main] INFO  o.f.t.SpringBootSecurityJwtApplication             - No active profile set, falling back to default profiles: default
+2023-08-14 08:58:46,120 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Multiple Spring Data modules found, entering strict repository configuration mode!
+2023-08-14 08:58:46,121 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-08-14 08:58:46,198 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Finished Spring Data repository scanning in 71 ms. Found 20 JPA repository interfaces.
+2023-08-14 08:58:46,479 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@3f1ef9d6' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-08-14 08:58:46,482 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-08-14 08:58:46,890 [main] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            - Tomcat initialized with port(s): 9090 (http)
+2023-08-14 08:58:46,898 [main] INFO  o.apache.coyote.http11.Http11NioProtocol           - Initializing ProtocolHandler ["http-nio-9090"]
+2023-08-14 08:58:46,898 [main] INFO  org.apache.catalina.core.StandardService           - Starting service [Tomcat]
+2023-08-14 08:58:46,899 [main] INFO  org.apache.catalina.core.StandardEngine            - Starting Servlet engine: [Apache Tomcat/9.0.46]
+2023-08-14 08:58:46,996 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]                 - Initializing Spring embedded WebApplicationContext
+2023-08-14 08:58:46,996 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext     - Root WebApplicationContext: initialization completed in 1356 ms
+2023-08-14 08:58:47,099 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-08-14 08:58:47,155 [main] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Starting...
+2023-08-14 08:58:47,423 [main] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Start completed.
+2023-08-14 08:58:47,556 [main] INFO  o.hibernate.jpa.internal.util.LogHelper            - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-08-14 08:58:47,671 [main] INFO  org.hibernate.Version                              - HHH000412: Hibernate ORM core version 5.6.15.Final
+2023-08-14 08:58:47,810 [main] INFO  org.hibernate.annotations.common.Version           - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-08-14 08:58:47,920 [main] INFO  org.hibernate.dialect.Dialect                      - HHH000400: Using dialect: org.fatmansoft.teach.sqlite.SQLDialect
+2023-08-14 08:58:48,370 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator                 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-08-14 08:58:48,374 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-08-14 08:58:49,648 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping              - Adding welcome page: class path resource [public/index.html]
+2023-08-14 08:58:49,783 [main] INFO  o.s.s.web.DefaultSecurityFilterChain               - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@225890bc, org.springframework.security.web.context.SecurityContextPersistenceFilter@7f6936cc, org.springframework.security.web.header.HeaderWriterFilter@489c15e2, org.springframework.web.filter.CorsFilter@d426e01, org.springframework.security.web.authentication.logout.LogoutFilter@7f65639e, org.fatmansoft.teach.security.jwt.AuthTokenFilter@68dc2f53, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4ac26092, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@306c8e09, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@44b5b54, org.springframework.security.web.session.SessionManagementFilter@1c000c2f, org.springframework.security.web.access.ExceptionTranslationFilter@48590849, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@34907a49]
+2023-08-14 08:58:50,007 [main] INFO  o.apache.coyote.http11.Http11NioProtocol           - Starting ProtocolHandler ["http-nio-9090"]
+2023-08-14 08:58:50,045 [main] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            - Tomcat started on port(s): 9090 (http) with context path ''
+2023-08-14 08:58:50,054 [main] INFO  o.f.t.SpringBootSecurityJwtApplication             - Started SpringBootSecurityJwtApplication in 4.719 seconds (JVM running for 4.969)
+2023-08-14 08:58:50,057 [main] INFO  o.f.teach.SystemApplicationListener                - SystemInitStart
+2023-08-14 08:58:50,148 [main] INFO  o.f.teach.SystemApplicationListener                - systemInitEnd
+2023-08-14 08:59:37,780 [http-nio-9090-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]                 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-08-14 08:59:37,780 [http-nio-9090-exec-1] INFO  o.s.web.servlet.DispatcherServlet                  - Initializing Servlet 'dispatcherServlet'
+2023-08-14 08:59:37,781 [http-nio-9090-exec-1] INFO  o.s.web.servlet.DispatcherServlet                  - Completed initialization in 1 ms
+2023-08-14 08:59:37,824 [http-nio-9090-exec-1] ERROR o.fatmansoft.teach.security.jwt.JwtUtils           - JWT token is expired: JWT expired at 2023-08-13T07:58:32Z. Current time: 2023-08-14T08:59:37Z, a difference of 90065823 milliseconds.  Allowed clock skew: 0 milliseconds.
+2023-08-14 08:59:38,123 [http-nio-9090-exec-1] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-08-14 08:59:37,0.328
+2023-08-14 09:00:57,130 [http-nio-9090-exec-3] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/login,,2023-08-14 09:00:56,0.202
+2023-08-14 09:04:14,118 [http-nio-9090-exec-6] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver        - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public org.fatmansoft.teach.payload.response.DataResponse org.fatmansoft.teach.controllers.StudentController.getStudentList(org.fatmansoft.teach.payload.request.DataRequest)]
+2023-08-14 09:04:14,119 [http-nio-9090-exec-6] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/student/getStudentList,admin,2023-08-14 09:04:14,0.006
+2023-08-14 09:04:47,816 [http-nio-9090-exec-8] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver        - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public org.fatmansoft.teach.payload.response.DataResponse org.fatmansoft.teach.controllers.StudentController.getStudentList(org.fatmansoft.teach.payload.request.DataRequest)]
+2023-08-14 09:04:47,817 [http-nio-9090-exec-8] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/student/getStudentList,admin,2023-08-14 09:04:47,0.004
+2023-08-14 09:05:39,858 [http-nio-9090-exec-10] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/student/getStudentList,admin,2023-08-14 09:05:31,8.172
+2023-08-14 11:17:30,764 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool                  - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m41s131ms479µs800ns).
+2023-08-14 11:48:33,941 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool                  - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=16m2s961ms94µs).
+2023-08-14 12:53:03,850 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool                  - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=11m29s112ms156µs500ns).
+2023-08-14 13:56:36,071 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool                  - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h1m32s194ms941µs800ns).
+2023-08-14 20:04:54,815 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-08-14 20:04:54,816 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Shutdown initiated...
+2023-08-14 20:04:54,817 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Shutdown completed.

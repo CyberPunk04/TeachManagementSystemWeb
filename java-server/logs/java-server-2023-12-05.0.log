@@ -1,0 +1,467 @@
+2023-12-05 16:04:50,314 [main] INFO  o.f.t.SpringBootSecurityJwtApplication             - Starting SpringBootSecurityJwtApplication using Java 17.0.1 on LAPTOP-T8S580OC with PID 27988 (D:\teach-web\java-server\target\classes started by jin in D:\teach-web\java-server)
+2023-12-05 16:04:50,314 [background-preinit] INFO  o.h.validator.internal.util.Version                - HV000001: Hibernate Validator 6.2.0.Final
+2023-12-05 16:04:50,317 [main] INFO  o.f.t.SpringBootSecurityJwtApplication             - No active profile set, falling back to default profiles: default
+2023-12-05 16:04:50,899 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Multiple Spring Data modules found, entering strict repository configuration mode!
+2023-12-05 16:04:50,900 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-12-05 16:04:50,986 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Finished Spring Data repository scanning in 74 ms. Found 20 JPA repository interfaces.
+2023-12-05 16:04:51,177 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@29fa6b65' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-12-05 16:04:51,179 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-12-05 16:04:51,346 [main] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            - Tomcat initialized with port(s): 9090 (http)
+2023-12-05 16:04:51,354 [main] INFO  o.apache.coyote.http11.Http11NioProtocol           - Initializing ProtocolHandler ["http-nio-9090"]
+2023-12-05 16:04:51,354 [main] INFO  org.apache.catalina.core.StandardService           - Starting service [Tomcat]
+2023-12-05 16:04:51,354 [main] INFO  org.apache.catalina.core.StandardEngine            - Starting Servlet engine: [Apache Tomcat/9.0.46]
+2023-12-05 16:04:51,511 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]                 - Initializing Spring embedded WebApplicationContext
+2023-12-05 16:04:51,511 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext     - Root WebApplicationContext: initialization completed in 1166 ms
+2023-12-05 16:04:51,573 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-12-05 16:04:51,601 [main] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Starting...
+2023-12-05 16:04:51,665 [main] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Start completed.
+2023-12-05 16:04:51,717 [main] INFO  o.hibernate.jpa.internal.util.LogHelper            - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-12-05 16:04:51,758 [main] INFO  org.hibernate.Version                              - HHH000412: Hibernate ORM core version 5.6.15.Final
+2023-12-05 16:04:51,871 [main] INFO  org.hibernate.annotations.common.Version           - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-12-05 16:04:51,956 [main] INFO  org.hibernate.dialect.Dialect                      - HHH000400: Using dialect: org.fatmansoft.teach.sqlite.SQLDialect
+2023-12-05 16:04:52,492 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator                 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-12-05 16:04:52,498 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-12-05 16:04:53,367 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping              - Adding welcome page: class path resource [public/index.html]
+2023-12-05 16:04:53,430 [main] INFO  o.s.s.web.DefaultSecurityFilterChain               - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1ece052b, org.springframework.security.web.context.SecurityContextPersistenceFilter@550e7ef6, org.springframework.security.web.header.HeaderWriterFilter@7747571c, org.springframework.web.filter.CorsFilter@20dc763b, org.springframework.security.web.authentication.logout.LogoutFilter@7fa2473a, org.fatmansoft.teach.security.jwt.AuthTokenFilter@3d6745ed, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@58701e8c, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6bc08a77, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4c81e7c2, org.springframework.security.web.session.SessionManagementFilter@30b29f55, org.springframework.security.web.access.ExceptionTranslationFilter@67062a93, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@2330c995]
+2023-12-05 16:04:53,582 [main] INFO  o.apache.coyote.http11.Http11NioProtocol           - Starting ProtocolHandler ["http-nio-9090"]
+2023-12-05 16:04:53,613 [main] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            - Tomcat started on port(s): 9090 (http) with context path ''
+2023-12-05 16:04:53,621 [main] INFO  o.f.t.SpringBootSecurityJwtApplication             - Started SpringBootSecurityJwtApplication in 3.625 seconds (JVM running for 4.211)
+2023-12-05 16:04:53,622 [main] INFO  o.f.teach.SystemApplicationListener                - SystemInitStart
+2023-12-05 16:04:53,674 [main] INFO  o.f.teach.SystemApplicationListener                - systemInitEnd
+2023-12-05 16:04:56,558 [http-nio-9090-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]                 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-12-05 16:04:56,558 [http-nio-9090-exec-1] INFO  o.s.web.servlet.DispatcherServlet                  - Initializing Servlet 'dispatcherServlet'
+2023-12-05 16:04:56,559 [http-nio-9090-exec-1] INFO  o.s.web.servlet.DispatcherServlet                  - Completed initialization in 1 ms
+2023-12-05 16:04:57,735 [http-nio-9090-exec-1] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-12-05 16:04:56,1.161
+2023-12-05 16:04:57,735 [http-nio-9090-exec-2] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-12-05 16:04:57,0.35
+2023-12-05 16:05:03,752 [http-nio-9090-exec-3] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/testValidateInfo,,2023-12-05 16:05:03,0.0
+2023-12-05 16:05:04,205 [http-nio-9090-exec-4] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/login,,2023-12-05 16:05:04,0.178
+2023-12-05 16:05:04,240 [http-nio-9090-exec-5] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,admin,2023-12-05 16:05:04,0.014
+2023-12-05 16:05:04,557 [http-nio-9090-exec-6] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/base/getMenuList,admin,2023-12-05 16:05:04,0.017
+2023-12-05 16:05:05,275 [http-nio-9090-exec-7] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/statistics/getMainPageData,admin,2023-12-05 16:05:05,0.002
+2023-12-05 16:05:14,459 [http-nio-9090-exec-8] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/statistics/getMainPageData,admin,2023-12-05 16:05:14,0.004
+2023-12-05 16:05:35,395 [http-nio-9090-exec-9] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/statistics/getMainPageData,admin,2023-12-05 16:05:35,0.007
+2023-12-05 16:05:49,343 [http-nio-9090-exec-10] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/base/getRoleOptionItemList,admin,2023-12-05 16:05:49,0.008
+2023-12-05 16:05:49,362 [http-nio-9090-exec-2] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/base/getMenuTreeNodeList,admin,2023-12-05 16:05:49,0.013
+2023-12-05 16:06:19,593 [http-nio-9090-exec-1] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/statistics/getMainPageData,admin,2023-12-05 16:06:19,0.006
+2023-12-05 16:06:43,534 [http-nio-9090-exec-3] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/statistics/getMainPageData,admin,2023-12-05 16:06:43,0.007
+2023-12-05 16:06:46,093 [http-nio-9090-exec-4] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/statistics/getMainPageData,admin,2023-12-05 16:06:46,0.0
+2023-12-05 17:24:48,806 [http-nio-9090-exec-5] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/statistics/getMainPageData,admin,2023-12-05 17:24:48,0.066
+2023-12-05 17:31:47,723 [http-nio-9090-exec-6] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/statistics/getMainPageData,admin,2023-12-05 17:31:47,0.013
+2023-12-05 18:50:33,909 [http-nio-9090-exec-7] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-12-05 18:50:33,0.053
+2023-12-05 18:50:41,250 [http-nio-9090-exec-8] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,admin,2023-12-05 18:50:41,0.029
+2023-12-05 18:50:49,395 [http-nio-9090-exec-9] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,admin,2023-12-05 18:50:49,0.011
+2023-12-05 18:50:59,281 [http-nio-9090-exec-10] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-12-05 18:50:59,0.007
+2023-12-05 18:51:04,992 [http-nio-9090-exec-2] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/testValidateInfo,,2023-12-05 18:51:04,0.0
+2023-12-05 18:51:05,359 [http-nio-9090-exec-1] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/login,,2023-12-05 18:51:05,0.1
+2023-12-05 18:51:05,372 [http-nio-9090-exec-3] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,admin,2023-12-05 18:51:05,0.0
+2023-12-05 18:51:05,699 [http-nio-9090-exec-4] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/base/getMenuList,admin,2023-12-05 18:51:05,0.017
+2023-12-05 18:56:17,314 [http-nio-9090-exec-5] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-12-05 18:56:17,0.005
+2023-12-05 18:56:18,969 [http-nio-9090-exec-6] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-12-05 18:56:18,0.007
+2023-12-05 18:56:28,713 [http-nio-9090-exec-7] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,admin,2023-12-05 18:56:28,0.008
+2023-12-05 18:56:36,185 [http-nio-9090-exec-8] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-12-05 18:56:36,0.004
+2023-12-05 18:56:37,472 [http-nio-9090-exec-9] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-12-05 18:56:37,0.003
+2023-12-05 18:56:38,799 [http-nio-9090-exec-10] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-12-05 18:56:38,0.004
+2023-12-05 18:56:39,391 [http-nio-9090-exec-2] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-12-05 18:56:39,0.004
+2023-12-05 18:56:43,756 [http-nio-9090-exec-1] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/testValidateInfo,,2023-12-05 18:56:43,0.0
+2023-12-05 18:56:43,836 [http-nio-9090-exec-3] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/login,,2023-12-05 18:56:43,0.08
+2023-12-05 18:56:43,858 [http-nio-9090-exec-4] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,admin,2023-12-05 18:56:43,0.008
+2023-12-05 18:56:43,882 [http-nio-9090-exec-5] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/base/getMenuList,admin,2023-12-05 18:56:43,0.024
+2023-12-05 18:56:44,125 [http-nio-9090-exec-6] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/statistics/getMainPageData,admin,2023-12-05 18:56:44,0.022
+2023-12-05 18:56:50,355 [http-nio-9090-exec-7] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-12-05 18:56:50,0.003
+2023-12-05 18:56:55,752 [http-nio-9090-exec-8] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/testValidateInfo,,2023-12-05 18:56:55,0.002
+2023-12-05 18:56:55,764 [http-nio-9090-exec-9] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-12-05 18:56:55,0.003
+2023-12-05 18:57:01,190 [http-nio-9090-exec-10] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/testValidateInfo,,2023-12-05 18:57:01,0.0
+2023-12-05 18:57:01,577 [http-nio-9090-exec-2] ERROR o.f.teach.security.jwt.AuthEntryPointJwt           - Unauthorized error: /auth/login:Bad credentials
+2023-12-05 18:57:01,578 [http-nio-9090-exec-2] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/login,,2023-12-05 18:57:01,0.078
+2023-12-05 18:57:04,430 [http-nio-9090-exec-1] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-12-05 18:57:04,0.003
+2023-12-05 18:57:14,081 [http-nio-9090-exec-3] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/testValidateInfo,,2023-12-05 18:57:14,0.0
+2023-12-05 18:57:14,161 [http-nio-9090-exec-4] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/login,,2023-12-05 18:57:14,0.065
+2023-12-05 18:57:14,186 [http-nio-9090-exec-5] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,202200300201,2023-12-05 18:57:14,0.006
+2023-12-05 18:57:14,203 [http-nio-9090-exec-6] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/base/getMenuList,202200300201,2023-12-05 18:57:14,0.007
+2023-12-05 18:57:14,595 [http-nio-9090-exec-7] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/statistics/getMainPageData,202200300201,2023-12-05 18:57:14,0.008
+2023-12-05 18:57:22,583 [http-nio-9090-exec-8] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/statistics/getMainPageData,202200300201,2023-12-05 18:57:22,0.006
+2023-12-05 18:57:22,586 [http-nio-9090-exec-9] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-12-05 18:57:22,0.004
+2023-12-05 18:57:23,888 [http-nio-9090-exec-10] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/student/getStudentIntroduceData,202200300201,2023-12-05 18:57:23,0.033
+2023-12-05 18:57:23,902 [http-nio-9090-exec-2] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/base/getPhotoImageStr,202200300201,2023-12-05 18:57:23,0.007
+2023-12-05 18:58:38,067 [http-nio-9090-exec-1] ERROR o.f.teach.security.jwt.AuthEntryPointJwt           - Unauthorized error: /api/student/getStudentIntroduceData:Full authentication is required to access this resource
+2023-12-05 18:58:38,068 [http-nio-9090-exec-1] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/student/getStudentIntroduceData,,2023-12-05 18:58:38,0.0
+2023-12-05 18:58:38,131 [http-nio-9090-exec-3] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-12-05 18:58:38,0.004
+2023-12-05 18:58:49,748 [http-nio-9090-exec-4] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/testValidateInfo,,2023-12-05 18:58:49,0.0
+2023-12-05 18:58:49,835 [http-nio-9090-exec-5] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/login,,2023-12-05 18:58:49,0.068
+2023-12-05 18:58:49,862 [http-nio-9090-exec-6] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,admin,2023-12-05 18:58:49,0.005
+2023-12-05 18:58:49,871 [http-nio-9090-exec-7] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/base/getMenuList,admin,2023-12-05 18:58:49,0.009
+2023-12-05 18:58:49,921 [http-nio-9090-exec-8] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/statistics/getMainPageData,admin,2023-12-05 18:58:49,0.012
+2023-12-05 19:09:17,630 [http-nio-9090-exec-9] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-12-05 19:09:17,0.005
+2023-12-05 19:10:29,601 [http-nio-9090-exec-10] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-12-05 19:10:29,0.003
+2023-12-05 19:18:18,564 [http-nio-9090-exec-2] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-12-05 19:18:18,0.005
+2023-12-05 19:20:21,033 [http-nio-9090-exec-1] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-12-05 19:20:21,0.004
+2023-12-05 19:30:12,467 [http-nio-9090-exec-3] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,admin,2023-12-05 19:30:12,0.053
+2023-12-05 19:30:15,503 [http-nio-9090-exec-4] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-12-05 19:30:15,0.0
+2023-12-05 19:30:19,543 [http-nio-9090-exec-5] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-12-05 19:30:19,0.004
+2023-12-05 19:31:07,225 [http-nio-9090-exec-6] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-12-05 19:31:07,0.006
+2023-12-05 19:32:17,344 [http-nio-9090-exec-7] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-12-05 19:32:17,0.009
+2023-12-05 19:33:32,933 [http-nio-9090-exec-8] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-12-05 19:33:32,0.003
+2023-12-05 19:34:20,926 [http-nio-9090-exec-9] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-12-05 19:34:20,0.005
+2023-12-05 19:34:26,496 [http-nio-9090-exec-10] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-12-05 19:34:26,0.004
+2023-12-05 19:37:48,031 [http-nio-9090-exec-2] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/testValidateInfo,,2023-12-05 19:37:48,0.0
+2023-12-05 19:37:48,369 [http-nio-9090-exec-1] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/login,,2023-12-05 19:37:48,0.079
+2023-12-05 19:37:48,397 [http-nio-9090-exec-3] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,admin,2023-12-05 19:37:48,0.02
+2023-12-05 19:37:48,728 [http-nio-9090-exec-4] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/base/getMenuList,admin,2023-12-05 19:37:48,0.012
+2023-12-05 19:37:48,947 [http-nio-9090-exec-5] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/statistics/getMainPageData,admin,2023-12-05 19:37:48,0.008
+2023-12-05 19:41:17,491 [http-nio-9090-exec-6] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/statistics/getMainPageData,admin,2023-12-05 19:41:17,0.006
+2023-12-05 19:41:20,697 [http-nio-9090-exec-7] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/statistics/getMainPageData,admin,2023-12-05 19:41:20,0.005
+2023-12-05 19:46:48,758 [http-nio-9090-exec-8] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-12-05 19:46:48,0.005
+2023-12-05 19:52:27,086 [http-nio-9090-exec-9] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-12-05 19:52:27,0.0
+2023-12-05 20:00:01,016 [http-nio-9090-exec-10] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-12-05 20:00:01,0.004
+2023-12-05 20:00:02,432 [http-nio-9090-exec-2] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-12-05 20:00:02,0.009
+2023-12-05 20:00:03,129 [http-nio-9090-exec-1] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-12-05 20:00:03,0.004
+2023-12-05 20:00:03,626 [http-nio-9090-exec-3] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-12-05 20:00:03,0.003
+2023-12-05 20:00:04,004 [http-nio-9090-exec-4] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-12-05 20:00:04,0.004
+2023-12-05 20:00:28,665 [http-nio-9090-exec-5] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-12-05 20:00:28,0.0
+2023-12-05 20:01:11,154 [http-nio-9090-exec-6] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-12-05 20:01:11,0.004
+2023-12-05 20:01:12,165 [http-nio-9090-exec-7] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-12-05 20:01:12,0.003
+2023-12-05 20:01:13,034 [http-nio-9090-exec-8] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-12-05 20:01:13,0.003
+2023-12-05 20:02:24,481 [http-nio-9090-exec-9] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-12-05 20:02:24,0.003
+2023-12-05 20:02:26,315 [http-nio-9090-exec-10] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-12-05 20:02:26,0.003
+2023-12-05 20:02:27,111 [http-nio-9090-exec-2] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-12-05 20:02:27,0.003
+2023-12-05 20:03:54,503 [http-nio-9090-exec-1] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-12-05 20:03:54,0.004
+2023-12-05 20:06:23,059 [http-nio-9090-exec-3] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-12-05 20:06:23,0.0
+2023-12-05 20:06:23,733 [http-nio-9090-exec-4] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-12-05 20:06:23,0.004
+2023-12-05 20:09:24,535 [http-nio-9090-exec-5] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-12-05 20:09:24,0.0
+2023-12-05 20:11:43,283 [http-nio-9090-exec-6] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-12-05 20:11:43,0.004
+2023-12-05 20:11:46,297 [http-nio-9090-exec-7] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-12-05 20:11:46,0.003
+2023-12-05 20:14:15,153 [http-nio-9090-exec-8] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-12-05 20:14:15,0.0
+2023-12-05 20:19:26,713 [http-nio-9090-exec-9] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-12-05 20:19:26,0.008
+2023-12-05 20:19:27,503 [http-nio-9090-exec-10] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-12-05 20:19:27,0.004
+2023-12-05 20:19:28,190 [http-nio-9090-exec-2] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-12-05 20:19:28,0.003
+2023-12-05 20:19:28,868 [http-nio-9090-exec-1] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-12-05 20:19:28,0.006
+2023-12-05 20:21:36,141 [http-nio-9090-exec-3] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-12-05 20:21:36,0.005
+2023-12-05 20:21:37,250 [http-nio-9090-exec-4] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-12-05 20:21:37,0.003
+2023-12-05 20:21:47,413 [http-nio-9090-exec-5] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-12-05 20:21:47,0.004
+2023-12-05 20:21:48,233 [http-nio-9090-exec-6] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-12-05 20:21:48,0.003
+2023-12-05 20:25:30,841 [http-nio-9090-exec-7] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-12-05 20:25:30,0.003
+2023-12-05 20:29:47,401 [http-nio-9090-exec-8] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-12-05 20:29:47,0.003
+2023-12-05 20:29:48,981 [http-nio-9090-exec-9] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-12-05 20:29:48,0.003
+2023-12-05 20:29:50,208 [http-nio-9090-exec-10] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-12-05 20:29:50,0.005
+2023-12-05 20:29:52,102 [http-nio-9090-exec-2] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-12-05 20:29:52,0.003
+2023-12-05 20:29:53,065 [http-nio-9090-exec-1] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-12-05 20:29:53,0.003
+2023-12-05 20:29:54,299 [http-nio-9090-exec-3] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-12-05 20:29:54,0.004
+2023-12-05 20:30:51,537 [http-nio-9090-exec-4] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-12-05 20:30:51,0.002
+2023-12-05 20:30:54,853 [http-nio-9090-exec-5] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-12-05 20:30:54,0.004
+2023-12-05 20:30:55,771 [http-nio-9090-exec-6] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-12-05 20:30:55,0.003
+2023-12-05 20:52:32,851 [http-nio-9090-exec-7] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-12-05 20:52:32,0.002
+2023-12-05 20:52:37,281 [http-nio-9090-exec-8] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/testValidateInfo,,2023-12-05 20:52:37,0.0
+2023-12-05 20:52:37,391 [http-nio-9090-exec-9] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/login,,2023-12-05 20:52:37,0.094
+2023-12-05 20:52:37,420 [http-nio-9090-exec-10] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,admin,2023-12-05 20:52:37,0.018
+2023-12-05 20:52:37,432 [http-nio-9090-exec-2] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/base/getMenuList,admin,2023-12-05 20:52:37,0.012
+2023-12-05 20:52:37,560 [http-nio-9090-exec-1] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/statistics/getMainPageData,admin,2023-12-05 20:52:37,0.013
+2023-12-05 20:55:13,980 [http-nio-9090-exec-3] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-12-05 20:55:13,0.003
+2023-12-05 21:06:22,750 [http-nio-9090-exec-4] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-12-05 21:06:22,0.0
+2023-12-05 21:06:38,932 [http-nio-9090-exec-5] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-12-05 21:06:38,0.015
+2023-12-05 21:06:39,480 [http-nio-9090-exec-6] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-12-05 21:06:39,0.0
+2023-12-05 21:06:39,680 [http-nio-9090-exec-7] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-12-05 21:06:39,0.0
+2023-12-05 21:06:39,817 [http-nio-9090-exec-8] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-12-05 21:06:39,0.017
+2023-12-05 21:07:11,072 [http-nio-9090-exec-9] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-12-05 21:07:11,0.0
+2023-12-05 21:07:11,327 [http-nio-9090-exec-10] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-12-05 21:07:11,0.0
+2023-12-05 21:07:11,842 [http-nio-9090-exec-2] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-12-05 21:07:11,0.0
+2023-12-05 21:07:11,979 [http-nio-9090-exec-1] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-12-05 21:07:11,0.002
+2023-12-05 21:11:35,795 [http-nio-9090-exec-3] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-12-05 21:11:35,0.0
+2023-12-05 21:11:36,304 [http-nio-9090-exec-4] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-12-05 21:11:36,0.015
+2023-12-05 21:11:36,460 [http-nio-9090-exec-5] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-12-05 21:11:36,0.0
+2023-12-05 21:11:36,922 [http-nio-9090-exec-6] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-12-05 21:11:36,0.0
+2023-12-05 21:11:37,796 [http-nio-9090-exec-7] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-12-05 21:11:37,0.0
+2023-12-05 21:11:39,708 [http-nio-9090-exec-8] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-12-05 21:11:39,0.002
+2023-12-05 21:11:39,868 [http-nio-9090-exec-9] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-12-05 21:11:39,0.0
+2023-12-05 21:12:43,442 [http-nio-9090-exec-10] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-12-05 21:12:43,0.0
+2023-12-05 21:12:43,709 [http-nio-9090-exec-2] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-12-05 21:12:43,0.0
+2023-12-05 21:12:44,282 [http-nio-9090-exec-1] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-12-05 21:12:44,0.0
+2023-12-05 21:12:44,445 [http-nio-9090-exec-3] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-12-05 21:12:44,0.004
+2023-12-05 21:12:44,539 [http-nio-9090-exec-4] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-12-05 21:12:44,0.0
+2023-12-05 21:12:52,233 [http-nio-9090-exec-5] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-12-05 21:12:52,0.0
+2023-12-05 21:12:58,894 [http-nio-9090-exec-6] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-12-05 21:12:58,0.016
+2023-12-05 21:12:59,016 [http-nio-9090-exec-7] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-12-05 21:12:59,0.0
+2023-12-05 21:13:00,238 [http-nio-9090-exec-8] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-12-05 21:13:00,0.0
+2023-12-05 21:13:00,493 [http-nio-9090-exec-9] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-12-05 21:13:00,0.0
+2023-12-05 21:13:00,728 [http-nio-9090-exec-10] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-12-05 21:13:00,0.0
+2023-12-05 21:13:00,889 [http-nio-9090-exec-2] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-12-05 21:13:00,0.003
+2023-12-05 21:13:01,016 [http-nio-9090-exec-1] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-12-05 21:13:01,0.003
+2023-12-05 21:14:35,089 [http-nio-9090-exec-3] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/testValidateInfo,,2023-12-05 21:14:35,0.0
+2023-12-05 21:14:35,179 [http-nio-9090-exec-4] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/login,,2023-12-05 21:14:35,0.074
+2023-12-05 21:14:35,707 [http-nio-9090-exec-5] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-12-05 21:14:35,0.003
+2023-12-05 21:15:09,336 [http-nio-9090-exec-6] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/testValidateInfo,,2023-12-05 21:15:09,0.0
+2023-12-05 21:15:09,645 [http-nio-9090-exec-7] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-12-05 21:15:09,0.005
+2023-12-05 21:15:10,302 [http-nio-9090-exec-8] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/testValidateInfo,,2023-12-05 21:15:10,0.0
+2023-12-05 21:15:10,593 [http-nio-9090-exec-9] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-12-05 21:15:10,0.006
+2023-12-05 21:15:10,696 [http-nio-9090-exec-10] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/testValidateInfo,,2023-12-05 21:15:10,0.006
+2023-12-05 21:15:10,950 [http-nio-9090-exec-2] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-12-05 21:15:10,0.006
+2023-12-05 21:15:11,181 [http-nio-9090-exec-1] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/testValidateInfo,,2023-12-05 21:15:11,0.0
+2023-12-05 21:15:11,226 [http-nio-9090-exec-3] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-12-05 21:15:11,0.003
+2023-12-05 21:15:11,453 [http-nio-9090-exec-4] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-12-05 21:15:11,0.005
+2023-12-05 21:15:11,508 [http-nio-9090-exec-5] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/testValidateInfo,,2023-12-05 21:15:11,0.0
+2023-12-05 21:15:11,781 [http-nio-9090-exec-6] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-12-05 21:15:11,0.007
+2023-12-05 21:15:12,165 [http-nio-9090-exec-7] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/testValidateInfo,,2023-12-05 21:15:12,0.0
+2023-12-05 21:15:12,414 [http-nio-9090-exec-8] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-12-05 21:15:12,0.006
+2023-12-05 21:15:14,491 [http-nio-9090-exec-9] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/testValidateInfo,,2023-12-05 21:15:14,0.0
+2023-12-05 21:15:14,541 [http-nio-9090-exec-10] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-12-05 21:15:14,0.002
+2023-12-05 21:15:14,773 [http-nio-9090-exec-2] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-12-05 21:15:14,0.005
+2023-12-05 21:15:15,325 [http-nio-9090-exec-1] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/testValidateInfo,,2023-12-05 21:15:15,0.0
+2023-12-05 21:15:15,586 [http-nio-9090-exec-3] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-12-05 21:15:15,0.004
+2023-12-05 21:15:17,205 [http-nio-9090-exec-4] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/testValidateInfo,,2023-12-05 21:15:17,0.0
+2023-12-05 21:15:17,472 [http-nio-9090-exec-5] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-12-05 21:15:17,0.006
+2023-12-05 21:15:19,712 [http-nio-9090-exec-6] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/testValidateInfo,,2023-12-05 21:15:19,0.0
+2023-12-05 21:15:19,727 [http-nio-9090-exec-7] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-12-05 21:15:19,0.003
+2023-12-05 21:15:19,971 [http-nio-9090-exec-8] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-12-05 21:15:19,0.005
+2023-12-05 21:15:20,468 [http-nio-9090-exec-9] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/testValidateInfo,,2023-12-05 21:15:20,0.003
+2023-12-05 21:15:20,492 [http-nio-9090-exec-10] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-12-05 21:15:20,0.0
+2023-12-05 21:15:20,717 [http-nio-9090-exec-2] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-12-05 21:15:20,0.006
+2023-12-05 21:15:20,863 [http-nio-9090-exec-1] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/testValidateInfo,,2023-12-05 21:15:20,0.0
+2023-12-05 21:15:21,129 [http-nio-9090-exec-3] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-12-05 21:15:21,0.005
+2023-12-05 21:15:21,184 [http-nio-9090-exec-4] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/testValidateInfo,,2023-12-05 21:15:21,0.0
+2023-12-05 21:15:21,202 [http-nio-9090-exec-5] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-12-05 21:15:21,0.004
+2023-12-05 21:15:21,444 [http-nio-9090-exec-6] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-12-05 21:15:21,0.002
+2023-12-05 21:15:32,717 [http-nio-9090-exec-7] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/testValidateInfo,,2023-12-05 21:15:32,0.0
+2023-12-05 21:15:32,760 [http-nio-9090-exec-8] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-12-05 21:15:32,0.004
+2023-12-05 21:15:32,982 [http-nio-9090-exec-9] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-12-05 21:15:32,0.003
+2023-12-05 21:15:33,069 [http-nio-9090-exec-10] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/testValidateInfo,,2023-12-05 21:15:33,0.0
+2023-12-05 21:15:33,082 [http-nio-9090-exec-2] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-12-05 21:15:33,0.003
+2023-12-05 21:15:33,322 [http-nio-9090-exec-1] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-12-05 21:15:33,0.006
+2023-12-05 21:15:33,455 [http-nio-9090-exec-3] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/testValidateInfo,,2023-12-05 21:15:33,0.0
+2023-12-05 21:15:33,711 [http-nio-9090-exec-4] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-12-05 21:15:33,0.004
+2023-12-05 21:15:58,648 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-12-05 21:15:58,655 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Shutdown initiated...
+2023-12-05 21:15:58,658 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Shutdown completed.
+2023-12-05 21:16:01,901 [main] INFO  o.f.t.SpringBootSecurityJwtApplication             - Starting SpringBootSecurityJwtApplication using Java 17.0.1 on LAPTOP-T8S580OC with PID 11300 (D:\teach-web\java-server\target\classes started by jin in D:\teach-web\java-server)
+2023-12-05 21:16:01,899 [background-preinit] INFO  o.h.validator.internal.util.Version                - HV000001: Hibernate Validator 6.2.0.Final
+2023-12-05 21:16:01,902 [main] INFO  o.f.t.SpringBootSecurityJwtApplication             - No active profile set, falling back to default profiles: default
+2023-12-05 21:16:02,474 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Multiple Spring Data modules found, entering strict repository configuration mode!
+2023-12-05 21:16:02,475 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-12-05 21:16:02,555 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Finished Spring Data repository scanning in 75 ms. Found 20 JPA repository interfaces.
+2023-12-05 21:16:02,753 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@b112b13' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-12-05 21:16:02,755 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-12-05 21:16:02,921 [main] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            - Tomcat initialized with port(s): 9090 (http)
+2023-12-05 21:16:02,928 [main] INFO  o.apache.coyote.http11.Http11NioProtocol           - Initializing ProtocolHandler ["http-nio-9090"]
+2023-12-05 21:16:02,928 [main] INFO  org.apache.catalina.core.StandardService           - Starting service [Tomcat]
+2023-12-05 21:16:02,928 [main] INFO  org.apache.catalina.core.StandardEngine            - Starting Servlet engine: [Apache Tomcat/9.0.46]
+2023-12-05 21:16:03,047 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]                 - Initializing Spring embedded WebApplicationContext
+2023-12-05 21:16:03,047 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext     - Root WebApplicationContext: initialization completed in 1117 ms
+2023-12-05 21:16:03,115 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-12-05 21:16:03,145 [main] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Starting...
+2023-12-05 21:16:03,214 [main] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Start completed.
+2023-12-05 21:16:03,271 [main] INFO  o.hibernate.jpa.internal.util.LogHelper            - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-12-05 21:16:03,326 [main] INFO  org.hibernate.Version                              - HHH000412: Hibernate ORM core version 5.6.15.Final
+2023-12-05 21:16:03,468 [main] INFO  org.hibernate.annotations.common.Version           - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-12-05 21:16:03,556 [main] INFO  org.hibernate.dialect.Dialect                      - HHH000400: Using dialect: org.fatmansoft.teach.sqlite.SQLDialect
+2023-12-05 21:16:04,135 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator                 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-12-05 21:16:04,141 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-12-05 21:16:05,109 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping              - Adding welcome page: class path resource [public/index.html]
+2023-12-05 21:16:05,165 [main] INFO  o.s.s.web.DefaultSecurityFilterChain               - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4fe8e318, org.springframework.security.web.context.SecurityContextPersistenceFilter@550e7ef6, org.springframework.security.web.header.HeaderWriterFilter@7747571c, org.springframework.web.filter.CorsFilter@21e15093, org.springframework.security.web.authentication.logout.LogoutFilter@7fa2473a, org.fatmansoft.teach.security.jwt.AuthTokenFilter@78c23ade, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@58701e8c, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6bc08a77, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@62cf873a, org.springframework.security.web.session.SessionManagementFilter@30b29f55, org.springframework.security.web.access.ExceptionTranslationFilter@67062a93, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@3b171fbd]
+2023-12-05 21:16:05,326 [main] INFO  o.apache.coyote.http11.Http11NioProtocol           - Starting ProtocolHandler ["http-nio-9090"]
+2023-12-05 21:16:05,358 [main] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            - Tomcat started on port(s): 9090 (http) with context path ''
+2023-12-05 21:16:05,366 [main] INFO  o.f.t.SpringBootSecurityJwtApplication             - Started SpringBootSecurityJwtApplication in 3.766 seconds (JVM running for 4.335)
+2023-12-05 21:16:05,367 [main] INFO  o.f.teach.SystemApplicationListener                - SystemInitStart
+2023-12-05 21:16:05,419 [main] INFO  o.f.teach.SystemApplicationListener                - systemInitEnd
+2023-12-05 21:16:18,344 [http-nio-9090-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]                 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-12-05 21:16:18,344 [http-nio-9090-exec-1] INFO  o.s.web.servlet.DispatcherServlet                  - Initializing Servlet 'dispatcherServlet'
+2023-12-05 21:16:18,345 [http-nio-9090-exec-1] INFO  o.s.web.servlet.DispatcherServlet                  - Completed initialization in 1 ms
+2023-12-05 21:16:18,463 [http-nio-9090-exec-1] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/testValidateInfo,,2023-12-05 21:16:18,0.102
+2023-12-05 21:16:20,021 [http-nio-9090-exec-2] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-12-05 21:16:18,1.264
+2023-12-05 21:18:19,488 [http-nio-9090-exec-3] INFO  o.fatmansoft.teach.service.EmailService            - Simple Email sending start
+2023-12-05 21:18:21,018 [http-nio-9090-exec-3] INFO  o.fatmansoft.teach.service.EmailService            - Simple Email sent
+2023-12-05 21:18:21,018 [http-nio-9090-exec-3] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/registerUser/emailVerify,,2023-12-05 21:18:19,1.53
+2023-12-05 21:18:29,989 [http-nio-9090-exec-4] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/testValidateInfo,,2023-12-05 21:18:29,0.002
+2023-12-05 21:18:30,307 [http-nio-9090-exec-5] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-12-05 21:18:30,0.007
+2023-12-05 21:18:30,622 [http-nio-9090-exec-6] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-12-05 21:18:30,0.004
+2023-12-05 21:18:32,560 [http-nio-9090-exec-7] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/testValidateInfo,,2023-12-05 21:18:32,0.003
+2023-12-05 21:18:32,576 [http-nio-9090-exec-8] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-12-05 21:18:32,0.007
+2023-12-05 21:18:32,864 [http-nio-9090-exec-9] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-12-05 21:18:32,0.006
+2023-12-05 21:18:33,664 [http-nio-9090-exec-10] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/testValidateInfo,,2023-12-05 21:18:33,0.0
+2023-12-05 21:18:33,937 [http-nio-9090-exec-1] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-12-05 21:18:33,0.006
+2023-12-05 21:18:34,939 [http-nio-9090-exec-2] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/testValidateInfo,,2023-12-05 21:18:34,0.0
+2023-12-05 21:18:34,975 [http-nio-9090-exec-3] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-12-05 21:18:34,0.003
+2023-12-05 21:18:35,223 [http-nio-9090-exec-4] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-12-05 21:18:35,0.006
+2023-12-05 21:18:35,737 [http-nio-9090-exec-5] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/testValidateInfo,,2023-12-05 21:18:35,0.006
+2023-12-05 21:18:35,998 [http-nio-9090-exec-6] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-12-05 21:18:35,0.007
+2023-12-05 21:18:51,193 [http-nio-9090-exec-7] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/testValidateInfo,,2023-12-05 21:18:51,0.003
+2023-12-05 21:18:51,420 [http-nio-9090-exec-8] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/login,,2023-12-05 21:18:51,0.191
+2023-12-05 21:18:51,768 [http-nio-9090-exec-9] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-12-05 21:18:51,0.005
+2023-12-05 21:19:07,481 [http-nio-9090-exec-10] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/testValidateInfo,,2023-12-05 21:19:07,0.001
+2023-12-05 21:19:07,568 [http-nio-9090-exec-1] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/login,,2023-12-05 21:19:07,0.069
+2023-12-05 21:19:07,899 [http-nio-9090-exec-2] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-12-05 21:19:07,0.003
+2023-12-05 21:19:36,906 [http-nio-9090-exec-3] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-12-05 21:19:36,0.004
+2023-12-05 21:22:24,801 [http-nio-9090-exec-4] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/testValidateInfo,,2023-12-05 21:22:24,0.001
+2023-12-05 21:22:24,850 [http-nio-9090-exec-5] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-12-05 21:22:24,0.004
+2023-12-05 21:22:25,416 [http-nio-9090-exec-6] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-12-05 21:22:25,0.002
+2023-12-05 21:22:42,124 [http-nio-9090-exec-7] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/testValidateInfo,,2023-12-05 21:22:42,0.0
+2023-12-05 21:22:42,329 [http-nio-9090-exec-8] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/login,,2023-12-05 21:22:42,0.069
+2023-12-05 21:22:42,879 [http-nio-9090-exec-9] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-12-05 21:22:42,0.001
+2023-12-05 21:27:11,789 [http-nio-9090-exec-10] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/testValidateInfo,,2023-12-05 21:27:11,0.001
+2023-12-05 21:27:11,886 [http-nio-9090-exec-1] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-12-05 21:27:11,0.004
+2023-12-05 21:27:12,442 [http-nio-9090-exec-2] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-12-05 21:27:12,0.003
+2023-12-05 21:28:24,326 [http-nio-9090-exec-3] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/testValidateInfo,,2023-12-05 21:28:24,0.003
+2023-12-05 21:28:24,431 [http-nio-9090-exec-4] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-12-05 21:28:24,0.004
+2023-12-05 21:28:24,945 [http-nio-9090-exec-5] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-12-05 21:28:24,0.006
+2023-12-05 21:28:36,377 [http-nio-9090-exec-6] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/testValidateInfo,,2023-12-05 21:28:36,0.003
+2023-12-05 21:28:36,469 [http-nio-9090-exec-7] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/login,,2023-12-05 21:28:36,0.07
+2023-12-05 21:28:37,332 [http-nio-9090-exec-8] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-12-05 21:28:37,0.003
+2023-12-05 21:30:12,720 [http-nio-9090-exec-9] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/testValidateInfo,,2023-12-05 21:30:12,0.002
+2023-12-05 21:30:12,773 [http-nio-9090-exec-10] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-12-05 21:30:12,0.003
+2023-12-05 21:30:13,387 [http-nio-9090-exec-1] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-12-05 21:30:13,0.004
+2023-12-05 21:32:13,138 [http-nio-9090-exec-2] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/testValidateInfo,,2023-12-05 21:32:13,0.003
+2023-12-05 21:32:13,230 [http-nio-9090-exec-3] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-12-05 21:32:13,0.008
+2023-12-05 21:32:13,769 [http-nio-9090-exec-4] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-12-05 21:32:13,0.003
+2023-12-05 21:32:21,770 [http-nio-9090-exec-5] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/testValidateInfo,,2023-12-05 21:32:21,0.0
+2023-12-05 21:32:21,799 [http-nio-9090-exec-6] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-12-05 21:32:21,0.0
+2023-12-05 21:32:22,061 [http-nio-9090-exec-7] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-12-05 21:32:22,0.0
+2023-12-05 21:32:22,770 [http-nio-9090-exec-8] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/testValidateInfo,,2023-12-05 21:32:22,0.0
+2023-12-05 21:32:23,031 [http-nio-9090-exec-9] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-12-05 21:32:23,0.006
+2023-12-05 21:33:37,769 [http-nio-9090-exec-10] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-12-05 21:33:37,0.005
+2023-12-05 21:33:39,460 [http-nio-9090-exec-1] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/testValidateInfo,,2023-12-05 21:33:39,0.0
+2023-12-05 21:33:39,475 [http-nio-9090-exec-2] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-12-05 21:33:39,0.002
+2023-12-05 21:33:39,732 [http-nio-9090-exec-3] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-12-05 21:33:39,0.001
+2023-12-05 21:33:40,490 [http-nio-9090-exec-4] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/testValidateInfo,,2023-12-05 21:33:40,0.0
+2023-12-05 21:33:40,763 [http-nio-9090-exec-5] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-12-05 21:33:40,0.006
+2023-12-05 21:34:13,382 [http-nio-9090-exec-6] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-12-05 21:34:13,0.004
+2023-12-05 21:34:15,927 [http-nio-9090-exec-7] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/testValidateInfo,,2023-12-05 21:34:15,0.002
+2023-12-05 21:34:15,950 [http-nio-9090-exec-8] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-12-05 21:34:15,0.004
+2023-12-05 21:34:16,416 [http-nio-9090-exec-9] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-12-05 21:34:16,0.002
+2023-12-05 21:35:16,526 [http-nio-9090-exec-10] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-12-05 21:35:16,0.003
+2023-12-05 21:35:18,255 [http-nio-9090-exec-1] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/testValidateInfo,,2023-12-05 21:35:18,0.002
+2023-12-05 21:35:18,270 [http-nio-9090-exec-2] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-12-05 21:35:18,0.003
+2023-12-05 21:35:18,827 [http-nio-9090-exec-3] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-12-05 21:35:18,0.006
+2023-12-05 21:35:20,231 [http-nio-9090-exec-4] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/testValidateInfo,,2023-12-05 21:35:20,0.0
+2023-12-05 21:35:20,345 [http-nio-9090-exec-5] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-12-05 21:35:20,0.002
+2023-12-05 21:35:20,723 [http-nio-9090-exec-6] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-12-05 21:35:20,0.003
+2023-12-05 21:35:58,201 [http-nio-9090-exec-7] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-12-05 21:35:58,0.005
+2023-12-05 21:36:03,583 [http-nio-9090-exec-8] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/testValidateInfo,,2023-12-05 21:36:03,0.0
+2023-12-05 21:36:03,645 [http-nio-9090-exec-9] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-12-05 21:36:03,0.008
+2023-12-05 21:36:03,897 [http-nio-9090-exec-10] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-12-05 21:36:03,0.002
+2023-12-05 21:36:05,340 [http-nio-9090-exec-1] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/testValidateInfo,,2023-12-05 21:36:05,0.0
+2023-12-05 21:36:05,603 [http-nio-9090-exec-2] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-12-05 21:36:05,0.003
+2023-12-05 21:36:06,172 [http-nio-9090-exec-3] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/testValidateInfo,,2023-12-05 21:36:06,0.0
+2023-12-05 21:36:06,425 [http-nio-9090-exec-4] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-12-05 21:36:06,0.003
+2023-12-05 21:36:06,877 [http-nio-9090-exec-5] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/testValidateInfo,,2023-12-05 21:36:06,0.0
+2023-12-05 21:36:07,121 [http-nio-9090-exec-6] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-12-05 21:36:07,0.003
+2023-12-05 21:36:11,075 [http-nio-9090-exec-7] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/testValidateInfo,,2023-12-05 21:36:11,0.0
+2023-12-05 21:36:11,330 [http-nio-9090-exec-8] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-12-05 21:36:11,0.003
+2023-12-05 21:36:33,089 [http-nio-9090-exec-9] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-12-05 21:36:33,0.003
+2023-12-05 21:36:36,254 [http-nio-9090-exec-10] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/testValidateInfo,,2023-12-05 21:36:36,0.004
+2023-12-05 21:36:36,563 [http-nio-9090-exec-1] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-12-05 21:36:36,0.003
+2023-12-05 21:36:36,842 [http-nio-9090-exec-2] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-12-05 21:36:36,0.003
+2023-12-05 21:36:37,895 [http-nio-9090-exec-3] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/testValidateInfo,,2023-12-05 21:36:37,0.003
+2023-12-05 21:36:38,144 [http-nio-9090-exec-4] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-12-05 21:36:38,0.003
+2023-12-05 21:36:38,823 [http-nio-9090-exec-5] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/testValidateInfo,,2023-12-05 21:36:38,0.006
+2023-12-05 21:36:39,072 [http-nio-9090-exec-6] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-12-05 21:36:39,0.006
+2023-12-05 21:36:39,344 [http-nio-9090-exec-7] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/testValidateInfo,,2023-12-05 21:36:39,0.006
+2023-12-05 21:36:39,599 [http-nio-9090-exec-8] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-12-05 21:36:39,0.006
+2023-12-05 21:36:39,708 [http-nio-9090-exec-9] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/testValidateInfo,,2023-12-05 21:36:39,0.0
+2023-12-05 21:36:39,722 [http-nio-9090-exec-10] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-12-05 21:36:39,0.002
+2023-12-05 21:36:39,963 [http-nio-9090-exec-1] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-12-05 21:36:39,0.007
+2023-12-05 21:37:54,891 [http-nio-9090-exec-2] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-12-05 21:37:54,0.004
+2023-12-05 21:37:56,900 [http-nio-9090-exec-3] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/testValidateInfo,,2023-12-05 21:37:56,0.002
+2023-12-05 21:37:56,914 [http-nio-9090-exec-4] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-12-05 21:37:56,0.003
+2023-12-05 21:37:57,411 [http-nio-9090-exec-5] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-12-05 21:37:57,0.003
+2023-12-05 21:37:58,982 [http-nio-9090-exec-6] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/testValidateInfo,,2023-12-05 21:37:58,0.0
+2023-12-05 21:37:59,000 [http-nio-9090-exec-7] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-12-05 21:37:58,0.002
+2023-12-05 21:37:59,454 [http-nio-9090-exec-8] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-12-05 21:37:59,0.002
+2023-12-05 21:38:34,926 [http-nio-9090-exec-9] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-12-05 21:38:34,0.003
+2023-12-05 21:39:25,643 [http-nio-9090-exec-10] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-12-05 21:39:25,0.0
+2023-12-05 21:39:29,528 [http-nio-9090-exec-1] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-12-05 21:39:29,0.004
+2023-12-05 21:39:33,948 [http-nio-9090-exec-2] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/testValidateInfo,,2023-12-05 21:39:33,0.005
+2023-12-05 21:39:34,453 [http-nio-9090-exec-3] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-12-05 21:39:34,0.003
+2023-12-05 21:39:45,665 [http-nio-9090-exec-4] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-12-05 21:39:45,0.004
+2023-12-05 21:41:24,582 [http-nio-9090-exec-5] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-12-05 21:41:24,0.004
+2023-12-05 21:41:34,322 [http-nio-9090-exec-6] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-12-05 21:41:34,0.0
+2023-12-05 21:41:37,442 [http-nio-9090-exec-7] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/testValidateInfo,,2023-12-05 21:41:37,0.001
+2023-12-05 21:41:37,458 [http-nio-9090-exec-8] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-12-05 21:41:37,0.003
+2023-12-05 21:41:37,736 [http-nio-9090-exec-9] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-12-05 21:41:37,0.0
+2023-12-05 21:41:38,556 [http-nio-9090-exec-10] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/testValidateInfo,,2023-12-05 21:41:38,0.0
+2023-12-05 21:41:38,600 [http-nio-9090-exec-1] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-12-05 21:41:38,0.003
+2023-12-05 21:41:38,816 [http-nio-9090-exec-2] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-12-05 21:41:38,0.006
+2023-12-05 21:41:39,015 [http-nio-9090-exec-3] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/testValidateInfo,,2023-12-05 21:41:39,0.005
+2023-12-05 21:41:39,271 [http-nio-9090-exec-4] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-12-05 21:41:39,0.006
+2023-12-05 21:41:39,464 [http-nio-9090-exec-5] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/testValidateInfo,,2023-12-05 21:41:39,0.0
+2023-12-05 21:41:39,719 [http-nio-9090-exec-6] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-12-05 21:41:39,0.006
+2023-12-05 21:41:44,873 [http-nio-9090-exec-7] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-12-05 21:41:44,0.003
+2023-12-05 21:41:56,526 [http-nio-9090-exec-8] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-12-05 21:41:56,0.001
+2023-12-05 21:42:05,716 [http-nio-9090-exec-9] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/testValidateInfo,,2023-12-05 21:42:05,0.0
+2023-12-05 21:42:06,013 [http-nio-9090-exec-10] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-12-05 21:42:06,0.003
+2023-12-05 21:43:15,667 [http-nio-9090-exec-1] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/testValidateInfo,,2023-12-05 21:43:15,0.001
+2023-12-05 21:43:15,724 [http-nio-9090-exec-2] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-12-05 21:43:15,0.004
+2023-12-05 21:43:16,276 [http-nio-9090-exec-3] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-12-05 21:43:16,0.003
+2023-12-05 21:43:17,460 [http-nio-9090-exec-4] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/testValidateInfo,,2023-12-05 21:43:17,0.001
+2023-12-05 21:43:17,508 [http-nio-9090-exec-5] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-12-05 21:43:17,0.004
+2023-12-05 21:43:17,718 [http-nio-9090-exec-6] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-12-05 21:43:17,0.003
+2023-12-05 21:43:32,301 [http-nio-9090-exec-7] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/testValidateInfo,,2023-12-05 21:43:32,0.001
+2023-12-05 21:43:32,567 [http-nio-9090-exec-8] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-12-05 21:43:32,0.005
+2023-12-05 21:43:33,160 [http-nio-9090-exec-9] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/testValidateInfo,,2023-12-05 21:43:33,0.001
+2023-12-05 21:43:33,201 [http-nio-9090-exec-10] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-12-05 21:43:33,0.004
+2023-12-05 21:43:33,417 [http-nio-9090-exec-1] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-12-05 21:43:33,0.004
+2023-12-05 21:43:33,703 [http-nio-9090-exec-2] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/testValidateInfo,,2023-12-05 21:43:33,0.001
+2023-12-05 21:43:33,755 [http-nio-9090-exec-3] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-12-05 21:43:33,0.004
+2023-12-05 21:43:33,957 [http-nio-9090-exec-4] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-12-05 21:43:33,0.003
+2023-12-05 21:43:34,080 [http-nio-9090-exec-5] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/testValidateInfo,,2023-12-05 21:43:34,0.001
+2023-12-05 21:43:34,123 [http-nio-9090-exec-6] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-12-05 21:43:34,0.003
+2023-12-05 21:43:34,333 [http-nio-9090-exec-7] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-12-05 21:43:34,0.003
+2023-12-05 21:43:56,013 [http-nio-9090-exec-8] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/testValidateInfo,,2023-12-05 21:43:56,0.001
+2023-12-05 21:43:56,023 [http-nio-9090-exec-9] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-12-05 21:43:56,0.003
+2023-12-05 21:43:56,996 [http-nio-9090-exec-10] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/testValidateInfo,,2023-12-05 21:43:56,0.001
+2023-12-05 21:43:57,313 [http-nio-9090-exec-1] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-12-05 21:43:57,0.003
+2023-12-05 21:43:57,574 [http-nio-9090-exec-2] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/testValidateInfo,,2023-12-05 21:43:57,0.001
+2023-12-05 21:43:57,821 [http-nio-9090-exec-3] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-12-05 21:43:57,0.003
+2023-12-05 21:43:57,920 [http-nio-9090-exec-4] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/testValidateInfo,,2023-12-05 21:43:57,0.001
+2023-12-05 21:43:58,240 [http-nio-9090-exec-5] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-12-05 21:43:58,0.002
+2023-12-05 21:44:02,962 [http-nio-9090-exec-6] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/testValidateInfo,,2023-12-05 21:44:02,0.0
+2023-12-05 21:44:03,351 [http-nio-9090-exec-7] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/login,,2023-12-05 21:44:03,0.067
+2023-12-05 21:44:03,542 [http-nio-9090-exec-8] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,admin,2023-12-05 21:44:03,0.012
+2023-12-05 21:44:03,703 [http-nio-9090-exec-9] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/base/getMenuList,admin,2023-12-05 21:44:03,0.017
+2023-12-05 21:44:03,933 [http-nio-9090-exec-10] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/statistics/getMainPageData,admin,2023-12-05 21:44:03,0.013
+2023-12-05 21:45:15,709 [http-nio-9090-exec-1] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,admin,2023-12-05 21:45:15,0.006
+2023-12-05 21:48:34,540 [http-nio-9090-exec-3] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/testValidateInfo,admin,2023-12-05 21:48:34,0.004
+2023-12-05 21:48:34,547 [http-nio-9090-exec-2] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/testValidateInfo,admin,2023-12-05 21:48:34,0.011
+2023-12-05 21:48:34,555 [http-nio-9090-exec-4] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,admin,2023-12-05 21:48:34,0.005
+2023-12-05 21:48:34,562 [http-nio-9090-exec-5] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,admin,2023-12-05 21:48:34,0.006
+2023-12-05 21:48:37,981 [http-nio-9090-exec-6] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/testValidateInfo,admin,2023-12-05 21:48:37,0.006
+2023-12-05 21:48:37,981 [http-nio-9090-exec-7] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/testValidateInfo,admin,2023-12-05 21:48:37,0.006
+2023-12-05 21:48:38,244 [http-nio-9090-exec-8] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,admin,2023-12-05 21:48:38,0.006
+2023-12-05 21:48:38,289 [http-nio-9090-exec-9] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,admin,2023-12-05 21:48:38,0.0
+2023-12-05 21:48:44,635 [http-nio-9090-exec-10] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-12-05 21:48:44,0.0
+2023-12-05 21:48:46,723 [http-nio-9090-exec-3] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/testValidateInfo,,2023-12-05 21:48:46,0.001
+2023-12-05 21:48:46,723 [http-nio-9090-exec-1] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/testValidateInfo,,2023-12-05 21:48:46,0.001
+2023-12-05 21:48:46,987 [http-nio-9090-exec-2] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-12-05 21:48:46,0.003
+2023-12-05 21:48:47,048 [http-nio-9090-exec-4] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-12-05 21:48:47,0.002
+2023-12-05 21:48:50,500 [http-nio-9090-exec-5] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/testValidateInfo,,2023-12-05 21:48:50,0.001
+2023-12-05 21:48:50,813 [http-nio-9090-exec-6] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/testValidateInfo,,2023-12-05 21:48:50,0.001
+2023-12-05 21:48:50,816 [http-nio-9090-exec-7] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-12-05 21:48:50,0.003
+2023-12-05 21:48:51,127 [http-nio-9090-exec-8] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-12-05 21:48:51,0.002
+2023-12-05 21:52:48,093 [http-nio-9090-exec-9] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/testValidateInfo,,2023-12-05 21:52:48,0.001
+2023-12-05 21:52:48,102 [http-nio-9090-exec-10] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-12-05 21:52:48,0.003
+2023-12-05 21:52:49,395 [http-nio-9090-exec-1] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/testValidateInfo,,2023-12-05 21:52:49,0.001
+2023-12-05 21:52:49,405 [http-nio-9090-exec-3] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-12-05 21:52:49,0.003
+2023-12-05 21:52:49,915 [http-nio-9090-exec-2] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/testValidateInfo,,2023-12-05 21:52:49,0.001
+2023-12-05 21:52:50,233 [http-nio-9090-exec-4] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-12-05 21:52:50,0.002
+2023-12-05 21:52:50,496 [http-nio-9090-exec-5] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/testValidateInfo,,2023-12-05 21:52:50,0.001
+2023-12-05 21:52:50,636 [http-nio-9090-exec-6] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-12-05 21:52:50,0.002
+2023-12-05 21:52:51,243 [http-nio-9090-exec-7] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/testValidateInfo,,2023-12-05 21:52:51,0.001
+2023-12-05 21:52:51,565 [http-nio-9090-exec-8] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-12-05 21:52:51,0.001
+2023-12-05 21:56:15,854 [http-nio-9090-exec-9] ERROR o.f.teach.security.jwt.AuthEntryPointJwt           - Unauthorized error: /api/statistics/getMainPageData:Full authentication is required to access this resource
+2023-12-05 21:56:15,855 [http-nio-9090-exec-9] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/statistics/getMainPageData,,2023-12-05 21:56:15,0.0
+2023-12-05 21:56:15,904 [http-nio-9090-exec-10] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-12-05 21:56:15,0.002
+2023-12-05 22:00:13,981 [http-nio-9090-exec-1] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/testValidateInfo,,2023-12-05 22:00:13,0.001
+2023-12-05 22:00:14,234 [http-nio-9090-exec-3] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-12-05 22:00:14,0.003
+2023-12-05 22:00:18,219 [http-nio-9090-exec-2] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-12-05 22:00:18,0.002
+2023-12-05 22:00:22,895 [http-nio-9090-exec-4] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/testValidateInfo,,2023-12-05 22:00:22,0.001
+2023-12-05 22:00:22,961 [http-nio-9090-exec-5] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/login,,2023-12-05 22:00:22,0.06
+2023-12-05 22:00:22,988 [http-nio-9090-exec-6] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,admin,2023-12-05 22:00:22,0.007
+2023-12-05 22:00:22,997 [http-nio-9090-exec-7] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/base/getMenuList,admin,2023-12-05 22:00:22,0.009
+2023-12-05 22:00:23,120 [http-nio-9090-exec-8] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/statistics/getMainPageData,admin,2023-12-05 22:00:23,0.005
+2023-12-05 22:01:03,463 [http-nio-9090-exec-9] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/statistics/getMainPageData,admin,2023-12-05 22:01:03,0.005
+2023-12-05 22:01:07,428 [http-nio-9090-exec-10] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/statistics/getMainPageData,admin,2023-12-05 22:01:07,0.007
+2023-12-05 22:01:12,950 [http-nio-9090-exec-1] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/statistics/getMainPageData,admin,2023-12-05 22:01:12,0.005
+2023-12-05 22:01:18,829 [http-nio-9090-exec-3] ERROR o.f.teach.security.jwt.AuthEntryPointJwt           - Unauthorized error: /api/statistics/getMainPageData:Full authentication is required to access this resource
+2023-12-05 22:01:18,829 [http-nio-9090-exec-3] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /api/statistics/getMainPageData,,2023-12-05 22:01:18,0.0
+2023-12-05 22:01:18,895 [http-nio-9090-exec-2] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-12-05 22:01:18,0.0
+2023-12-05 22:05:37,794 [http-nio-9090-exec-4] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-12-05 22:05:37,0.004
+2023-12-05 22:09:12,716 [http-nio-9090-exec-5] INFO  o.f.teach.security.jwt.AuthTokenFilter             - /auth/getValidateCode,,2023-12-05 22:09:12,0.003
+2023-12-05 22:17:38,753 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-12-05 22:17:38,755 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Shutdown initiated...
+2023-12-05 22:17:38,758 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Shutdown completed.

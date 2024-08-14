@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9bd23978-0093-4a81-910c-5f898f0c9484" name="更改" comment="web">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="jzh" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;CyberPunk04&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/CyberPunk04/TeachManagementSystemWeb.git&quot;,
+    &quot;accountId&quot;: &quot;4a8dd356-28a3-4cf2-9aaf-ede48adf7cb1&quot;
+  }
+}</component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="2YFPrMpQOUyp6opVjxtJkMvGWPN" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "<未知>",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/teach-web",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "spring.configuration.checksum": "c0dee09dc003d4703ecd62867ce52c4f",
+    "ts.external.directory.path": "C:\\Program Files\\Java\\IntelliJ IDEA 2022.3.3\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="SpringBootSecurityJwtApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="19" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <module name="java-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.fatmansoft.teach.SpringBootSecurityJwtApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.18034.62" />
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.18034.62" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="9bd23978-0093-4a81-910c-5f898f0c9484" name="更改" comment="" />
+      <created>1700118551920</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1700118551920</updated>
+      <workItem from="1700118552943" duration="393000" />
+      <workItem from="1702210200688" duration="828000" />
+      <workItem from="1702638537378" duration="590000" />
+      <workItem from="1702809851253" duration="1086000" />
+      <workItem from="1702982229737" duration="122000" />
+      <workItem from="1702988338564" duration="159000" />
+      <workItem from="1703047741492" duration="1178000" />
+      <workItem from="1703050188106" duration="763000" />
+      <workItem from="1703070177434" duration="111000" />
+      <workItem from="1703221860356" duration="286000" />
+      <workItem from="1703233660517" duration="471000" />
+      <workItem from="1703234145864" duration="24000" />
+      <workItem from="1703235662545" duration="139000" />
+      <workItem from="1703236326942" duration="81000" />
+      <workItem from="1703303987025" duration="85000" />
+      <workItem from="1703304079289" duration="335000" />
+      <workItem from="1703327380424" duration="111000" />
+      <workItem from="1703426626069" duration="38000" />
+      <workItem from="1703589147690" duration="1347000" />
+      <workItem from="1703590846814" duration="4000" />
+      <workItem from="1723621290042" duration="2135000" />
+      <workItem from="1723635278861" duration="1047000" />
+    </task>
+    <task id="LOCAL-00001" summary="无">
+      <created>1702210803549</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1702210803549</updated>
+    </task>
+    <task id="LOCAL-00002" summary="无">
+      <created>1702210809921</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1702210809921</updated>
+    </task>
+    <task id="LOCAL-00003" summary="无">
+      <created>1702211000221</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1702211000221</updated>
+    </task>
+    <task id="LOCAL-00004" summary="无">
+      <option name="closed" value="true" />
+      <created>1702639042762</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1702639042762</updated>
+    </task>
+    <task id="LOCAL-00005" summary="无">
+      <option name="closed" value="true" />
+      <created>1702639117584</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1702639117584</updated>
+    </task>
+    <task id="LOCAL-00006" summary="完成博客功能">
+      <option name="closed" value="true" />
+      <created>1702810129909</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1702810129909</updated>
+    </task>
+    <task id="LOCAL-00007" summary="完成博客功能">
+      <option name="closed" value="true" />
+      <created>1702982275789</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1702982275789</updated>
+    </task>
+    <task id="LOCAL-00008" summary="完成博客功能">
+      <option name="closed" value="true" />
+      <created>1702982328149</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1702982328149</updated>
+    </task>
+    <task id="LOCAL-00009" summary="整合v1">
+      <option name="closed" value="true" />
+      <created>1702988434476</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1702988434476</updated>
+    </task>
+    <task id="LOCAL-00010" summary="登录注册界面">
+      <option name="closed" value="true" />
+      <created>1703047810272</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1703047810272</updated>
+    </task>
+    <task id="LOCAL-00011" summary="登录注册界面">
+      <option name="closed" value="true" />
+      <created>1703047926523</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1703047926523</updated>
+    </task>
+    <task id="LOCAL-00012" summary="前端依赖">
+      <option name="closed" value="true" />
+      <created>1703048580172</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1703048580172</updated>
+    </task>
+    <task id="LOCAL-00013" summary="修正bug">
+      <option name="closed" value="true" />
+      <created>1703050259370</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1703050259370</updated>
+    </task>
+    <task id="LOCAL-00014" summary="完成博客搜索功能和登录界面">
+      <option name="closed" value="true" />
+      <created>1703070265087</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1703070265087</updated>
+    </task>
+    <task id="LOCAL-00015" summary="增加博客上传照片、点赞功能以及前端依赖更新">
+      <option name="closed" value="true" />
+      <created>1703222073524</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1703222073524</updated>
+    </task>
+    <task id="LOCAL-00016" summary="增加更改邮箱，博客管理员功能、删除确认功能、删除评论删除帖子、注册密码强度限制">
+      <option name="closed" value="true" />
+      <created>1703233983070</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1703233983070</updated>
+    </task>
+    <task id="LOCAL-00017" summary="帖子文本可以支持换行空格">
+      <option name="closed" value="true" />
+      <created>1703236361012</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1703236361012</updated>
+    </task>
+    <task id="LOCAL-00018" summary="v0.5">
+      <option name="closed" value="true" />
+      <created>1703304124055</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1703304124055</updated>
+    </task>
+    <task id="LOCAL-00019" summary="v0.5">
+      <option name="closed" value="true" />
+      <created>1703304177438</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1703304177438</updated>
+    </task>
+    <task id="LOCAL-00020" summary="v0.5">
+      <option name="closed" value="true" />
+      <created>1703304344936</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1703304344936</updated>
+    </task>
+    <task id="LOCAL-00021" summary="v1.0">
+      <option name="closed" value="true" />
+      <created>1703327451788</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1703327451788</updated>
+    </task>
+    <task id="LOCAL-00022" summary="v1.1">
+      <option name="closed" value="true" />
+      <created>1703426653467</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1703426653467</updated>
+    </task>
+    <task id="LOCAL-00023" summary="web">
+      <option name="closed" value="true" />
+      <created>1723621399588</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1723621399588</updated>
+    </task>
+    <task id="LOCAL-00024" summary="web">
+      <option name="closed" value="true" />
+      <created>1723621628925</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1723621628925</updated>
+    </task>
+    <task id="LOCAL-00025" summary="web">
+      <option name="closed" value="true" />
+      <created>1723621817057</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1723621817057</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="master" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="无" />
+    <MESSAGE value="完成博客功能" />
+    <MESSAGE value="整合v1" />
+    <MESSAGE value="登录注册界面" />
+    <MESSAGE value="前端依赖" />
+    <MESSAGE value="修正bug" />
+    <MESSAGE value="完成博客搜索功能和登录界面" />
+    <MESSAGE value="增加博客上传照片、点赞功能以及前端依赖更新" />
+    <MESSAGE value="增加更改邮箱，博客管理员功能、删除确认功能、删除评论删除帖子、注册密码强度限制" />
+    <MESSAGE value="帖子文本可以支持换行空格" />
+    <MESSAGE value="v0.5" />
+    <MESSAGE value="v1.0" />
+    <MESSAGE value="v1.1" />
+    <MESSAGE value="web" />
+    <option name="LAST_COMMIT_MESSAGE" value="web" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
